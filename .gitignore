@@ -1,0 +1,22 @@
+# Application
+public/assets/plugins/*
+!public/assets/plugins/.gitkeep
+public/assets/mu-plugins/*/
+public/assets/upgrade
+public/assets/uploads/*
+!public/assets/uploads/.gitkeep
+
+# WordPress
+public/wp
+public/.htaccess
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+/vendor
+
+# WP-CLI
+wp-cli.local.yml
