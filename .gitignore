@@ -2,6 +2,7 @@
 public/assets/plugins/*
 !public/assets/plugins/.gitkeep
 public/assets/mu-plugins/*/
+public/assets/themes/*
 public/assets/upgrade
 public/assets/uploads/*
 !public/assets/uploads/.gitkeep
