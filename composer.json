@@ -47,7 +47,8 @@
         "roots/multisite-url-fixer": "^1.1",
         "wpackagist-plugin/theme-switcha": "2.2",
 	"MySiteDigital/dining-dashboard": "dev-master",
-	"MySiteDigital/theme-switcha-toolbar": "dev-master"
+	"MySiteDigital/theme-switcha-toolbar": "dev-master",
+        "wpackagist-plugin/duracelltomi-google-tag-manager": "1.10.1"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.4.2",
