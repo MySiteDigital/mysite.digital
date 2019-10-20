@@ -4,8 +4,44 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "470806c8b66f286b147c6d1916f39536",
+    "content-hash": "75b90e953ed99a6154a60b82504b31f0",
     "packages": [
+        {
+            "name": "MySiteDigital/dining-dashboard",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MySiteDigital/dining-dashboard.git",
+                "reference": "833a6e053da03f7c1f27f6a15d9510cd6ad85f68"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MySiteDigital/dining-dashboard/zipball/833a6e053da03f7c1f27f6a15d9510cd6ad85f68",
+                "reference": "833a6e053da03f7c1f27f6a15d9510cd6ad85f68",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "MySite Digital",
+                    "homepage": "http://mysite.digital"
+                }
+            ],
+            "description": "Dinging Dashboard is a WordPress plugin providing the functionality needed to manage your restaurant or cafe's website.",
+            "homepage": "https://github.com/MySiteDigital/theme-switcha-toolbar",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/MySiteDigital/dining-dashboard/tree/master",
+                "issues": "https://github.com/MySiteDigital/dining-dashboard/issues"
+            },
+            "time": "2019-10-20T00:18:11+00:00"
+        },
         {
             "name": "MySiteDigital/theme-switcha-toolbar",
             "version": "dev-master",
@@ -935,6 +971,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "mysitedigital/dining-dashboard": 20,
         "mysitedigital/theme-switcha-toolbar": 20,
         "roave/security-advisories": 20
     },

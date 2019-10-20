@@ -25,6 +25,10 @@
             "type": "composer",
             "url": "https://wpackagist.org"
         },
+	"dining-dashboard":{
+            "type": "vcs",
+            "url": "git@github.com:MySiteDigital/dining-dashboard.git"
+        },
 	"theme-swtcha-toolbar":{
             "type": "vcs",
             "url": "git@github.com:MySiteDigital/theme-switcha-toolbar.git"
@@ -42,6 +46,7 @@
         "wpackagist-plugin/woocommerce": "3.7.1",
         "roots/multisite-url-fixer": "^1.1",
         "wpackagist-plugin/theme-switcha": "2.2",
+	"MySiteDigital/dining-dashboard": "dev-master",
 	"MySiteDigital/theme-switcha-toolbar": "dev-master"
     },
     "require-dev": {
