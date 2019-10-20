@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MySiteDigital/dining-dashboard.git",
-                "reference": "833a6e053da03f7c1f27f6a15d9510cd6ad85f68"
+                "reference": "9ebef4f8487332af269fab1358e97e8d4651c0a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MySiteDigital/dining-dashboard/zipball/833a6e053da03f7c1f27f6a15d9510cd6ad85f68",
-                "reference": "833a6e053da03f7c1f27f6a15d9510cd6ad85f68",
+                "url": "https://api.github.com/repos/MySiteDigital/dining-dashboard/zipball/9ebef4f8487332af269fab1358e97e8d4651c0a3",
+                "reference": "9ebef4f8487332af269fab1358e97e8d4651c0a3",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,7 @@
                 "source": "https://github.com/MySiteDigital/dining-dashboard/tree/master",
                 "issues": "https://github.com/MySiteDigital/dining-dashboard/issues"
             },
-            "time": "2019-10-20T00:18:11+00:00"
+            "time": "2019-10-20T00:45:21+00:00"
         },
         {
             "name": "MySiteDigital/theme-switcha-toolbar",
