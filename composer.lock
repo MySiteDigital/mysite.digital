@@ -48,12 +48,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MySiteDigital/theme-switcha-toolbar.git",
-                "reference": "39d6aa28763287d919df01cb164b59680882d202"
+                "reference": "0d3463c8d039c9bf6c1598818547818ed0fbdd54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MySiteDigital/theme-switcha-toolbar/zipball/39d6aa28763287d919df01cb164b59680882d202",
-                "reference": "39d6aa28763287d919df01cb164b59680882d202",
+                "url": "https://api.github.com/repos/MySiteDigital/theme-switcha-toolbar/zipball/0d3463c8d039c9bf6c1598818547818ed0fbdd54",
+                "reference": "0d3463c8d039c9bf6c1598818547818ed0fbdd54",
                 "shasum": ""
             },
             "require": {
@@ -76,7 +76,7 @@
                 "source": "https://github.com/MySiteDigital/theme-switcha-toolbar/tree/master",
                 "issues": "https://github.com/MySiteDigital/theme-switcha-toolbar/issues"
             },
-            "time": "2019-10-20T00:13:30+00:00"
+            "time": "2019-10-20T01:11:00+00:00"
         },
         {
             "name": "composer/installers",
