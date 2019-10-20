@@ -4,8 +4,44 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea2085f602b31c95e1de35a4d642259a",
+    "content-hash": "470806c8b66f286b147c6d1916f39536",
     "packages": [
+        {
+            "name": "MySiteDigital/theme-switcha-toolbar",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MySiteDigital/theme-switcha-toolbar.git",
+                "reference": "39d6aa28763287d919df01cb164b59680882d202"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MySiteDigital/theme-switcha-toolbar/zipball/39d6aa28763287d919df01cb164b59680882d202",
+                "reference": "39d6aa28763287d919df01cb164b59680882d202",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "MySite Digital",
+                    "homepage": "http://mysite.digital"
+                }
+            ],
+            "description": "If you have the Theme Switcha plugin activated, activating this plugin will the theme switcha to every page (fixed to the bottom of a users browser).",
+            "homepage": "https://github.com/MySiteDigital/theme-switcha-toolbar",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/MySiteDigital/theme-switcha-toolbar/tree/master",
+                "issues": "https://github.com/MySiteDigital/theme-switcha-toolbar/issues"
+            },
+            "time": "2019-10-20T00:13:30+00:00"
+        },
         {
             "name": "composer/installers",
             "version": "v1.7.0",
@@ -567,6 +603,26 @@
             "time": "2019-09-10T21:37:39+00:00"
         },
         {
+            "name": "wpackagist-plugin/theme-switcha",
+            "version": "2.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/theme-switcha/",
+                "reference": "tags/2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/theme-switcha.2.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/theme-switcha/"
+        },
+        {
             "name": "wpackagist-plugin/woocommerce",
             "version": "3.7.1",
             "source": {
@@ -879,6 +935,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "mysitedigital/theme-switcha-toolbar": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
