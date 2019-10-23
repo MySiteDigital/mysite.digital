@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "acf22d270e62dbbe4af148a9d7b4357c",
+    "content-hash": "3ffcc3b8ccd6ca68fe62e323ca1dfd7f",
     "packages": [
         {
             "name": "MySiteDigital/dining-dashboard",
@@ -41,6 +41,41 @@
                 "issues": "https://github.com/MySiteDigital/dining-dashboard/issues"
             },
             "time": "2019-10-20T00:45:21+00:00"
+        },
+        {
+            "name": "MySiteDigital/md-child-theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MySiteDigital/md-child-theme.git",
+                "reference": "264217d580772dd4468c331331beea32ead45a64"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MySiteDigital/md-child-theme/zipball/264217d580772dd4468c331331beea32ead45a64",
+                "reference": "264217d580772dd4468c331331beea32ead45a64",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "wordpress-theme",
+            "authors": [
+                {
+                    "name": "MySite Digital",
+                    "homepage": "http://mysite.digital"
+                }
+            ],
+            "homepage": "https://github.com/MySiteDigital/md-child-theme",
+            "keywords": [
+                "theme",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/MySiteDigital/md-child-theme/tree/master",
+                "issues": "https://github.com/MySiteDigital/md-child-theme/issues"
+            },
+            "time": "2019-10-23T06:47:36+00:00"
         },
         {
             "name": "MySiteDigital/theme-switcha-toolbar",
@@ -1011,6 +1046,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "mysitedigital/md-child-theme": 20,
         "mysitedigital/dining-dashboard": 20,
         "mysitedigital/theme-switcha-toolbar": 20,
         "roave/security-advisories": 20

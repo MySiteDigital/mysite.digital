@@ -25,6 +25,10 @@
             "type": "composer",
             "url": "https://wpackagist.org"
         },
+        "md-child-theme":{
+             "type": "vcs",
+             "url": "git@github.com:MySiteDigital/md-child-theme.git"
+        },
 	"dining-dashboard":{
             "type": "vcs",
             "url": "git@github.com:MySiteDigital/dining-dashboard.git"
@@ -46,6 +50,7 @@
         "wpackagist-plugin/woocommerce": "3.7.1",
         "roots/multisite-url-fixer": "^1.1",
         "wpackagist-plugin/theme-switcha": "2.2",
+	"MySiteDigital/md-child-theme": "dev-master",
 	"MySiteDigital/dining-dashboard": "dev-master",
 	"MySiteDigital/theme-switcha-toolbar": "dev-master",
         "wpackagist-plugin/duracelltomi-google-tag-manager": "1.10.1",
