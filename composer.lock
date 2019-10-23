@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ffcc3b8ccd6ca68fe62e323ca1dfd7f",
+    "content-hash": "daf74ed85a77c8f30bb87ba6988f3ae3",
     "packages": [
         {
             "name": "MySiteDigital/dining-dashboard",
@@ -48,12 +48,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MySiteDigital/md-child-theme.git",
-                "reference": "264217d580772dd4468c331331beea32ead45a64"
+                "reference": "5c287b89d2d2e2c1676b36548f3a41b5cc45c27e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MySiteDigital/md-child-theme/zipball/264217d580772dd4468c331331beea32ead45a64",
-                "reference": "264217d580772dd4468c331331beea32ead45a64",
+                "url": "https://api.github.com/repos/MySiteDigital/md-child-theme/zipball/5c287b89d2d2e2c1676b36548f3a41b5cc45c27e",
+                "reference": "5c287b89d2d2e2c1676b36548f3a41b5cc45c27e",
                 "shasum": ""
             },
             "require": {
@@ -75,7 +75,7 @@
                 "source": "https://github.com/MySiteDigital/md-child-theme/tree/master",
                 "issues": "https://github.com/MySiteDigital/md-child-theme/issues"
             },
-            "time": "2019-10-23T06:47:36+00:00"
+            "time": "2019-10-23T07:25:21+00:00"
         },
         {
             "name": "MySiteDigital/theme-switcha-toolbar",
@@ -752,6 +752,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/woocommerce/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce-gateway-stripe",
+            "version": "4.3.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce-gateway-stripe/",
+                "reference": "tags/4.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.3.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce-gateway-stripe/"
         },
         {
             "name": "wpackagist-theme/suitbuilder",
