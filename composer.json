@@ -55,7 +55,8 @@
 	"MySiteDigital/theme-switcha-toolbar": "dev-master",
         "wpackagist-plugin/duracelltomi-google-tag-manager": "1.10.1",
         "wpackagist-plugin/post-worktime-logger": "1.5.3",
-        "wpackagist-plugin/woocommerce-gateway-stripe": "4.3.0"
+        "wpackagist-plugin/woocommerce-gateway-stripe": "4.3.0",
+        "wpackagist-plugin/woo-private-product": "dev-trunk"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.4.2",
