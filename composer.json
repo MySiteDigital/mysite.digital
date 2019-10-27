@@ -36,6 +36,10 @@
 	"theme-swtcha-toolbar":{
             "type": "vcs",
             "url": "git@github.com:MySiteDigital/theme-switcha-toolbar.git"
+        },
+	"woocommerce-private-products":{
+            "type": "vcs",
+            "url": "git@github.com:MySiteDigital/woocommerce-private-products.git"
         }
     },
     "require": {
@@ -53,6 +57,7 @@
 	"MySiteDigital/md-child-theme": "dev-master",
 	"MySiteDigital/dining-dashboard": "dev-master",
 	"MySiteDigital/theme-switcha-toolbar": "dev-master",
+	"MySiteDigital/woocommerce-private-products" : "dev-master",
         "wpackagist-plugin/duracelltomi-google-tag-manager": "1.10.1",
         "wpackagist-plugin/post-worktime-logger": "1.5.3",
         "wpackagist-plugin/woocommerce-gateway-stripe": "4.3.0",

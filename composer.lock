@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4fbe3988a72db38d8b983dcac1df28c3",
+    "content-hash": "255b5bd521b5cb2b27aadae4691cdc14",
     "packages": [
         {
             "name": "MySiteDigital/dining-dashboard",
@@ -48,12 +48,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MySiteDigital/md-child-theme.git",
-                "reference": "5c287b89d2d2e2c1676b36548f3a41b5cc45c27e"
+                "reference": "ccd360314f687f9a93312d70f1732fb43e40df37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MySiteDigital/md-child-theme/zipball/5c287b89d2d2e2c1676b36548f3a41b5cc45c27e",
-                "reference": "5c287b89d2d2e2c1676b36548f3a41b5cc45c27e",
+                "url": "https://api.github.com/repos/MySiteDigital/md-child-theme/zipball/ccd360314f687f9a93312d70f1732fb43e40df37",
+                "reference": "ccd360314f687f9a93312d70f1732fb43e40df37",
                 "shasum": ""
             },
             "require": {
@@ -75,7 +75,7 @@
                 "source": "https://github.com/MySiteDigital/md-child-theme/tree/master",
                 "issues": "https://github.com/MySiteDigital/md-child-theme/issues"
             },
-            "time": "2019-10-23T07:25:21+00:00"
+            "time": "2019-10-26T21:41:35+00:00"
         },
         {
             "name": "MySiteDigital/theme-switcha-toolbar",
@@ -112,6 +112,43 @@
                 "issues": "https://github.com/MySiteDigital/theme-switcha-toolbar/issues"
             },
             "time": "2019-10-20T01:16:44+00:00"
+        },
+        {
+            "name": "MySiteDigital/woocommerce-private-products",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MySiteDigital/woocommerce-private-products.git",
+                "reference": "a468638ddf0be93445b32def7bcc8ce91c7277f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MySiteDigital/woocommerce-private-products/zipball/a468638ddf0be93445b32def7bcc8ce91c7277f1",
+                "reference": "a468638ddf0be93445b32def7bcc8ce91c7277f1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "MySite Digital",
+                    "homepage": "http://mysite.digital"
+                }
+            ],
+            "description": "This plugin allows you to sell some products to a select range of customers.",
+            "homepage": "https://github.com/MySiteDigital/woocommerce-private-products",
+            "keywords": [
+                "plugin",
+                "woocommerce",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/MySiteDigital/woocommerce-private-products/tree/master",
+                "issues": "https://github.com/MySiteDigital/woocommerce-private-products/issues"
+            },
+            "time": "2019-10-27T05:08:08+00:00"
         },
         {
             "name": "composer/installers",
@@ -1090,6 +1127,7 @@
         "mysitedigital/md-child-theme": 20,
         "mysitedigital/dining-dashboard": 20,
         "mysitedigital/theme-switcha-toolbar": 20,
+        "mysitedigital/woocommerce-private-products": 20,
         "wpackagist-plugin/woo-private-product": 20,
         "roave/security-advisories": 20
     },
