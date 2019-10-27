@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "255b5bd521b5cb2b27aadae4691cdc14",
+    "content-hash": "ce3197eaa1d20fdee645b05d66047818",
     "packages": [
         {
             "name": "MySiteDigital/dining-dashboard",
@@ -709,6 +709,26 @@
                 "environment"
             ],
             "time": "2019-09-10T21:37:39+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/checkout-fees-for-woocommerce",
+            "version": "2.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/checkout-fees-for-woocommerce/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/checkout-fees-for-woocommerce.zip?timestamp=1571304782",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/checkout-fees-for-woocommerce/"
         },
         {
             "name": "wpackagist-plugin/duracelltomi-google-tag-manager",
