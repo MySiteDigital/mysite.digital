@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ce3197eaa1d20fdee645b05d66047818",
+    "content-hash": "c5cd2ffdc31e4dad1f4687f852a793f5",
     "packages": [
         {
             "name": "MySiteDigital/dining-dashboard",
@@ -751,6 +751,26 @@
             "homepage": "https://wordpress.org/plugins/duracelltomi-google-tag-manager/"
         },
         {
+            "name": "wpackagist-plugin/mailgun",
+            "version": "1.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mailgun/",
+                "reference": "tags/1.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailgun.1.7.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailgun/"
+        },
+        {
             "name": "wpackagist-plugin/post-worktime-logger",
             "version": "1.5.3",
             "source": {
@@ -789,27 +809,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/theme-switcha/"
-        },
-        {
-            "name": "wpackagist-plugin/woo-private-product",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/woo-private-product/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-private-product.zip?timestamp=1547779052",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/woo-private-product/",
-            "time": "2019-01-18T02:37:32+00:00"
         },
         {
             "name": "wpackagist-plugin/woocommerce",
@@ -1148,7 +1147,6 @@
         "mysitedigital/dining-dashboard": 20,
         "mysitedigital/theme-switcha-toolbar": 20,
         "mysitedigital/woocommerce-private-products": 20,
-        "wpackagist-plugin/woo-private-product": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,

@@ -61,7 +61,8 @@
         "wpackagist-plugin/duracelltomi-google-tag-manager": "1.10.1",
         "wpackagist-plugin/post-worktime-logger": "1.5.3",
         "wpackagist-plugin/woocommerce-gateway-stripe": "4.3.0",
-        "wpackagist-plugin/checkout-fees-for-woocommerce": "2.6"
+        "wpackagist-plugin/checkout-fees-for-woocommerce": "2.6",
+        "wpackagist-plugin/mailgun": "1.7.1"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.4.2",
