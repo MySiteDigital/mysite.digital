@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "66331390ded8cf2e36915ed42a628cb4",
+    "content-hash": "c5cd2ffdc31e4dad1f4687f852a793f5",
     "packages": [
         {
             "name": "MySiteDigital/dining-dashboard",
@@ -112,41 +112,6 @@
                 "issues": "https://github.com/MySiteDigital/theme-switcha-toolbar/issues"
             },
             "time": "2019-10-20T01:16:44+00:00"
-        },
-        {
-            "name": "MySiteDigital/woocommerce-measurement-price-calculator",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/MySiteDigital/woocommerce-measurement-price-calculator.git",
-                "reference": "eaf3e627dea70583e93bc9631f1b50071445c146"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/MySiteDigital/woocommerce-measurement-price-calculator/zipball/eaf3e627dea70583e93bc9631f1b50071445c146",
-                "reference": "eaf3e627dea70583e93bc9631f1b50071445c146",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "MySite Digital",
-                    "homepage": "http://mysite.digital"
-                }
-            ],
-            "description": "Forked from meglio/WooCommerce-Measurement-Price-Calculator to add composer.json, allowing installation to be performed using Composer. ",
-            "homepage": "https://github.com/MySiteDigital/woocommerce-measurement-price-calculator",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/MySiteDigital/woocommerce-measurement-price-calculator/tree/master"
-            },
-            "time": "2019-11-03T04:06:21+00:00"
         },
         {
             "name": "MySiteDigital/woocommerce-private-products",
@@ -1181,7 +1146,6 @@
         "mysitedigital/md-child-theme": 20,
         "mysitedigital/dining-dashboard": 20,
         "mysitedigital/theme-switcha-toolbar": 20,
-        "mysitedigital/woocommerce-measurement-price-calculator": 20,
         "mysitedigital/woocommerce-private-products": 20,
         "roave/security-advisories": 20
     },
