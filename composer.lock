@@ -83,12 +83,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MySiteDigital/theme-switcha-toolbar.git",
-                "reference": "88deee78556281468c389738a3bad0756413d3f4"
+                "reference": "2a636b269a61ef329c8dff2c2e000f6abe417048"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MySiteDigital/theme-switcha-toolbar/zipball/88deee78556281468c389738a3bad0756413d3f4",
-                "reference": "88deee78556281468c389738a3bad0756413d3f4",
+                "url": "https://api.github.com/repos/MySiteDigital/theme-switcha-toolbar/zipball/2a636b269a61ef329c8dff2c2e000f6abe417048",
+                "reference": "2a636b269a61ef329c8dff2c2e000f6abe417048",
                 "shasum": ""
             },
             "require": {
@@ -111,7 +111,7 @@
                 "source": "https://github.com/MySiteDigital/theme-switcha-toolbar/tree/master",
                 "issues": "https://github.com/MySiteDigital/theme-switcha-toolbar/issues"
             },
-            "time": "2020-03-24T03:46:14+00:00"
+            "time": "2020-03-24T04:09:44+00:00"
         },
         {
             "name": "MySiteDigital/woocommerce-private-products",
