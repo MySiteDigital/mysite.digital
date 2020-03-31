@@ -6,4 +6,8 @@
  */
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 require_once dirname(__DIR__) . '/config/application.php';
+
+define('COOKIE_DOMAIN', false );
+define('WP_DEBUG', true );
+
 require_once ABSPATH . 'wp-settings.php';
