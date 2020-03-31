@@ -40,7 +40,11 @@
 	"woocommerce-private-products":{
             "type": "vcs",
             "url": "git@github.com:MySiteDigital/woocommerce-private-products.git"
-        }
+        },
+	"woocommerce-pdf-invoices-tax-based-rendering":{
+	    "type": "vcs",
+	    "url": "git@github.com:MySiteDigital/woocommerce-pdf-invoices-tax-based-rendering.git"
+	}
     },
     "require": {
         "php": ">=7.1",
@@ -58,6 +62,7 @@
 	"MySiteDigital/dining-dashboard": "dev-master",
 	"MySiteDigital/theme-switcha-toolbar": "dev-master",
 	"MySiteDigital/woocommerce-private-products" : "dev-master",
+	"MySiteDigital/woocommerce-pdf-invoices-tax-based-rendering": "dev-master",
         "wpackagist-plugin/duracelltomi-google-tag-manager": "1.10.1",
         "wpackagist-plugin/post-worktime-logger": "1.5.3",
         "wpackagist-plugin/woocommerce-gateway-stripe": "4.3.0",
