@@ -22,7 +22,9 @@ class CheckoutExtensions {
 
     public function __construct()
     {
+        add_action( 'woocommerce_valid_order_statuses_for_payment', [ $this, 'allow_payments_when_on_hold' ], 999, 2 );
         add_filter( 'woocommerce_available_payment_gateways', [ $this, 'update_payment_gateways' ], 999, 3 );
+        add_filter( 'user_has_cap', [ $this, 'allow_anyone_to_pay' ], 999, 3 );
     }
 
     public function update_payment_gateways( $available_gateways ) {
@@ -46,6 +48,23 @@ class CheckoutExtensions {
         return $available_gateways;
     }
 
+    public function allow_payments_when_on_hold( $statuses, $order ) {
+        $statuses[] = 'on-hold';
+        return $statuses;
+    }
+
+    /* lets anyone pay for an order that is already associated with a customer. */
+    public function allow_anyone_to_pay( $allcaps, $caps, $args ) {
+        if ( isset( $caps[0] ) ) {
+            switch ( $caps[0] ) {
+                case 'pay_for_order':
+                    $allcaps['pay_for_order'] = true;
+                    break;
+            }
+        }
+        return $allcaps;
+    }
+
     public static function has_credit_card_fee( $order ){
         if( count( $order->get_items('fee') ) ) {
             return true;
@@ -55,40 +74,40 @@ class CheckoutExtensions {
     }
 
     public static function add_credit_card_fee( $order, $includes_tax = true, $fee_tax_status = 'taxable' ){
-            if( count( $order->get_items('fee') ) ) {
-                //this order already has a Fee
-                return;
-            }
-
-            $sub_total = $order->get_subtotal();
-            $fee_amount = $sub_total * 0.03;
-
-            if( ! count( $order->get_items('tax') ) ) {
-                //if there is no tax
-                $includes_tax = false;
-                $fee_tax_status = 'none';
-            }
-            // Get a new instance of the WC_Order_Item_Fee Object
-            $cc_fee = new \WC_Order_Item_Fee();
-            $cc_fee->set_name( "Credit Card Processing Fee" ); // Generic fee name
-            $cc_fee->set_amount( $fee_amount ); // Fee amount
-            $cc_fee->set_total( $fee_amount ); // Fee amount
-            $cc_fee->set_tax_status( $fee_tax_status ); // or 'none'
-
-            $order->add_item( $cc_fee );
-            $order->calculate_totals( $includes_tax );
-
-            if( ! $includes_tax ){
-                $order->set_cart_tax( 0 );
-            }
-
-            $order->save();
-
-            //hack to make the details on the page update
-            global $wp;
-            wp_redirect( add_query_arg( $_SERVER['QUERY_STRING'], '', home_url( $wp->request ) ) );
-            exit;
+        if( count( $order->get_items('fee') ) ) {
+            //this order already has a Fee
+            return;
         }
+
+        $sub_total = $order->get_subtotal();
+        $fee_amount = $sub_total * 0.03;
+
+        if( ! count( $order->get_items('tax') ) ) {
+            //if there is no tax
+            $includes_tax = false;
+            $fee_tax_status = 'none';
+        }
+        // Get a new instance of the WC_Order_Item_Fee Object
+        $cc_fee = new \WC_Order_Item_Fee();
+        $cc_fee->set_name( "Credit Card Processing Fee" ); // Generic fee name
+        $cc_fee->set_amount( $fee_amount ); // Fee amount
+        $cc_fee->set_total( $fee_amount ); // Fee amount
+        $cc_fee->set_tax_status( $fee_tax_status ); // or 'none'
+
+        $order->add_item( $cc_fee );
+        $order->calculate_totals( $includes_tax );
+
+        if( ! $includes_tax ){
+            $order->set_cart_tax( 0 );
+        }
+
+        $order->save();
+
+        //hack to make the details on the page update
+        global $wp;
+        wp_redirect( add_query_arg( $_SERVER['QUERY_STRING'], '', home_url( $wp->request ) ) );
+        exit;
+    }
 }
 
 new CheckoutExtensions();
