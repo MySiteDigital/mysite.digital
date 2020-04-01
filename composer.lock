@@ -48,12 +48,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MySiteDigital/md-child-theme.git",
-                "reference": "54c533f8651c68e8ed02f038d3671394ae64c10a"
+                "reference": "31b90c92ea9e75756df504c3f314e225900dff33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MySiteDigital/md-child-theme/zipball/54c533f8651c68e8ed02f038d3671394ae64c10a",
-                "reference": "54c533f8651c68e8ed02f038d3671394ae64c10a",
+                "url": "https://api.github.com/repos/MySiteDigital/md-child-theme/zipball/31b90c92ea9e75756df504c3f314e225900dff33",
+                "reference": "31b90c92ea9e75756df504c3f314e225900dff33",
                 "shasum": ""
             },
             "require": {
@@ -75,7 +75,7 @@
                 "source": "https://github.com/MySiteDigital/md-child-theme/tree/master",
                 "issues": "https://github.com/MySiteDigital/md-child-theme/issues"
             },
-            "time": "2019-11-04T06:08:18+00:00"
+            "time": "2020-04-01T01:20:06+00:00"
         },
         {
             "name": "MySiteDigital/theme-switcha-toolbar",
