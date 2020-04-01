@@ -30,7 +30,7 @@ class EmailExtensions {
         if( $invoice_title ) {
             $subject = $invoice_title;
         }
-        return $invoice_title;
+        return $subject;
     }
 }
 
