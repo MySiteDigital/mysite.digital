@@ -52,6 +52,7 @@ final class MySite {
      */
     public function includes()
     {
+        include_once( MD_PLUGIN_PATH . 'includes/woocommerce/class-checkout-extensions.php' );
         include_once( MD_PLUGIN_PATH . 'includes/woocommerce/class-order-extensions.php' );
     }
 
