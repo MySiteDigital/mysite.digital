@@ -69,7 +69,7 @@ class CheckoutExtensions {
                 $fee_tax_status = 'none';
             }
             // Get a new instance of the WC_Order_Item_Fee Object
-            $cc_fee = new WC_Order_Item_Fee();
+            $cc_fee = new \WC_Order_Item_Fee();
             $cc_fee->set_name( "Credit Card Processing Fee" ); // Generic fee name
             $cc_fee->set_amount( $fee_amount ); // Fee amount
             $cc_fee->set_total( $fee_amount ); // Fee amount
