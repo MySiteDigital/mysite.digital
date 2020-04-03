@@ -1,0 +1,29 @@
+/*
+Theme Name: MySite Digital Child Theme
+Theme URL: http://mysite.digital
+Description: Child Theme for Suitbuilder
+Author: MySite Digital
+Author URL: http://mysite.digital
+Template: suitbuilder
+Version: 1.0.0
+Text Domain: suitbuilder-child
+*/ 
+
+.woocommerce .col2-set .col-1,
+.woocommerce .col2-set .col-2 {
+    max-width: 100%;
+}
+
+.woocommerce form .form-row,
+.woocommerce form .form-row label,
+.woocommerce form .form-row span {
+    display: block;
+}
+
+.woocommerce form .form-row span.optional {
+    display: inline;
+}
+
+.woocommerce-input-wrapper textarea {
+    min-height: 190px;
+}
