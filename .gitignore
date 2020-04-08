@@ -2,7 +2,11 @@
 public/assets/plugins/*
 !public/assets/plugins/.gitkeep
 public/assets/mu-plugins/*/
+!public/assets/mu-plugins/mysite/
 public/assets/themes/*
+!public/assets/themes/md-child-theme/
+public/assets/themes/md-child-theme/_dev/node_modules
+!public/assets/themes/md-child-theme/_dev/
 public/assets/upgrade
 public/assets/uploads/*
 !public/assets/uploads/.gitkeep

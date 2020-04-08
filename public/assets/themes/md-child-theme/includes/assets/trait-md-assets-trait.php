@@ -51,7 +51,7 @@ if ( ! trait_exists ( 'MySiteDigital\Assets\AssetsTrait' ) ) {
                 wp_register_style(
                     $this->frontend_styles[ 'handle' ],
                     $this->get_asset_location( $this->frontend_styles['src'], $this->frontend_styles['type'] ),
-                    [],
+                    isset( $this->frontend_styles['deps'] ) ? $this->frontend_styles['deps'] : [],
                     self::get_asset_version( $this->frontend_styles['src'], $this->frontend_styles['type'] )
                 );
             }
@@ -189,7 +189,7 @@ if ( ! trait_exists ( 'MySiteDigital\Assets\AssetsTrait' ) ) {
         }
 
         public function is_webpack_dev_server(){
-            if( ! defined( 'WP_ENV' ) || WP_ENV !== 'dev' ){
+            if( ! defined( 'WP_ENV' ) || WP_ENV !== 'development' ){
                 return false;
             }
             $socket = false;

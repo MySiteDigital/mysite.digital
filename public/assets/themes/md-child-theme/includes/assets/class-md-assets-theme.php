@@ -24,6 +24,7 @@ class Theme {
         'type' => 'theme',
         'handle' => 'simple-dining',
         'src' => 'theme.css',
+        'deps' => 'parent-styles',
         'post_types' => [ 'all' ],
     ];
     

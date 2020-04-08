@@ -1,13 +1,16 @@
 <?php
 
+include_once( 'includes/assets/trait-md-assets-trait.php' );
+include_once( 'includes/assets/class-md-assets-theme.php' );
+
 function enqueue_parent_styles() {
-    wp_enqueue_style( 
-        'parent-style', 
-        get_template_directory_uri().'/style.css' 
+    wp_register_style( 
+        'parent-styles', 
+        get_template_directory_uri() . '/style.css' 
     );
 }
 
-add_action( 'wp_enqueue_scripts', 'enqueue_parent_styles' );
+add_action( 'init', 'enqueue_parent_styles' );
 
 
 function redirect_to_checkout( $url ) {
@@ -69,5 +72,4 @@ function fix_order_amount_item_total( $price, $order, $item, $inc_tax = false, $
 }
 
 add_filter( 'woocommerce_order_amount_item_total', 'fix_order_amount_item_total', 10, 5 );   
-
 
