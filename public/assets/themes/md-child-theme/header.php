@@ -40,7 +40,7 @@ do_action( 'suitbuilder_action_before_head' );?>
 	do_action( 'suitbuilder_action_after_wp_head' );
 	?>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&family=Roboto:wght@900&display=swap" rel="stylesheet"> 
-	<link rel='stylesheet' id='mysite-css'  href='https://mysite.digital/assets/themes/md-child-theme/assets/css/theme.css?ver=1586489823' type='text/css' media='all' title="mysite" />
+	<link rel='stylesheet' id='mysite-css'  href='http://mysite.ms/assets/themes/md-child-theme/assets/css/theme.css?ver=15864576899' type='text/css' media='all' title="mysite" />
 </head>
 
 <body <?php body_class(); ?>>
