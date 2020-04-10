@@ -22,15 +22,15 @@ class Theme {
 
     protected $frontend_styles = [
         'type' => 'theme',
-        'handle' => 'simple-dining',
+        'handle' => 'mysite',
         'src' => 'theme.css',
-        'deps' => 'parent-styles',
+        'deps' => ['parent-styles'],
         'post_types' => [ 'all' ],
     ];
     
     protected $frontend_scripts = [
         'type' => 'theme',
-        'handle' => 'simple-dining',
+        'handle' => 'mysite',
         'src' => 'theme.js',
         'post_types' => [ 'all' ],
     ];
