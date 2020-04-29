@@ -1,5 +1,6 @@
 # Application
 public/assets/plugins/*
+public/assets/backup/
 !public/assets/plugins/.gitkeep
 public/assets/mu-plugins/*/
 !public/assets/mu-plugins/mysite/
